@@ -1,0 +1,9 @@
+High Available setup details
+
+1.	Create a Highly available Kubernetes cluster manually using Google Compute Engines (GCE). Do not create a Kubernetes hosted solution using Google Kubernetes Engine (GKE). Use Kubeadm(preferred)/kubespray. Do not use kops.
+
+Followed the production installation in Kubernetes documentation and used kubespary to deploy
+https://kubernetes.io/docs/setup/production-environment/tools/kubespray/
+
+GCP Machine snapshot added File Name = GCP machine snapshot.png
+On the Ansible host after setting up root ssh do the following
